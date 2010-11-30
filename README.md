@@ -1,7 +1,3 @@
-<!-- 
-This README file is formatted in markdown, go read README.html!
--->
-
 Djabbler
 ========
 
@@ -35,7 +31,7 @@ This is a "loose" roadmap: room has been left for jumping around between feature
             * Configure the surrounding Django project.
             * Install plugins like South (migrations), Dilla (lipsum filler).
             * Basic contrib.admin support.
-            * Point urls to /admin/ to contrib.admin, else goto djabbler.urls.
+            + Point urls to /admin/ to contrib.admin, else goto djabbler.urls.
             * In djabbler.urls, everything returns "Hello, World!"
             * Find more thorough licensing terms, split Documentation.
     * 0.1 "Hello, World!" works.
