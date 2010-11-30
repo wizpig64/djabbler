@@ -12,7 +12,10 @@ Change log
 
 Releases are named as version:date (e.g. 0.0.1:101129, meaning version 0.0.1, released on Nov 29th, 2010). The extra date bits for bug fixes between versions.
 
-* 0.0.1:101129 (Current)
+* 0.0.2:101129 (Current)
+    * [DOC] Oh, github supports markdown READMEs? Let's see if that works.
+    * [ADD] All requests to djabbler.urls return djabbler.views.hello().
+* 0.0.1:101129
     * [DOC] Made this README
     * [DOC] Started with a Creative Commons A-NC-SA 3.0 license. We'll see how that works.
 
@@ -25,14 +28,13 @@ This is a "loose" roadmap: room has been left for jumping around between feature
 * 0.0 Pre-release
     * 0.0.0 Personal setup and configuration.
         * 0.0.1 Made this README in markdown, converted to html for distrib.
-        * 0.0.2-0.1 The following in any order:
+        * 0.0.2 Pointed URLs properly, made hello world view for not /admin/.
+        * 0.0.3-0.1 The following in any order:
             * Set up Amazon EC2 server.
             * Make git scripts, or become more comfortable with Gity.app.
             * Configure the surrounding Django project.
             * Install plugins like South (migrations), Dilla (lipsum filler).
             * Basic contrib.admin support.
-            + Point urls to /admin/ to contrib.admin, else goto djabbler.urls.
-            * In djabbler.urls, everything returns "Hello, World!"
             * Find more thorough licensing terms, split Documentation.
     * 0.1 "Hello, World!" works.
         * 0.1.1-0.2.0 The following in any order:
